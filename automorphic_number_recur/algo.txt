@@ -1,0 +1,5 @@
+This is the algorithm for automorphic number using recursion
+step 1 : calling all the classes of the util.* package
+step 2 : declaring the class name
+
+i

@@ -1,0 +1,6 @@
+10 . Check if a number is a palindrome string or not, if yes then make it a non palindrome string by adding the corresponding letter of the last letter. 
+11. Write a program to check if a number begins with a vowel and ends with a consonant. 
+12. Using recursion print the pattern : abcdef -> abc def -> a bc d ef -> a b c d e f 
+13. Write a program to sort the columns of a matrix in java and display the new array 
+14. Write a program to sort the rows of a matrix in java and display the new array 
+15. Write a program to take a DDA input from the user and print the both the diagonals combined in a sorted order, skip any duplicate element.
