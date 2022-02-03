@@ -1,5 +1,8 @@
 This is the algorithm for automorphic number using recursion
-step 1 : calling all the classes of the util.* package
-step 2 : declaring the class name
 
-i
+Algorithm for boolean isAutomorphic(int n, int s):
+step 1 : Check if the original number is greater than 0 or not
+step 2 : If yes then check if the last digit of both the original and square number are the same.
+step 3 : If yes then remove those last digits and use recurtion to check if the next digits are same or not or if n has run out of digits which states that n is a automorphic number.
+step 4 : But if the digits are not same then its not a automorphic number.
+step 5 : Recursion runs till either it runs out of digits which returns true or gets two different digits which returns false.
