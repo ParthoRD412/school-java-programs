@@ -31,8 +31,8 @@ public class evil // class name declaration
         System.out.println("Enter a number :");
         int n = in.nextInt(); // taking input
         if(ob.freq(ob.decimal_to_binary(n))%2 == 0) // checking whether the number after converting to binary number system has even number of 1's or not
-        System.out.println("Evil number");
+            System.out.println("Evil number");
         else
-        System.out.println("Odious number(not evil number)");
+            System.out.println("Odious number(not evil number)");
     }
 }
