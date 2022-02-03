@@ -6,3 +6,8 @@ step 2 : If yes then check if the last digit of both the original and square num
 step 3 : If yes then remove those last digits and use recurtion to check if the next digits are same or not or if n has run out of digits which states that n is a automorphic number.
 step 4 : But if the digits are not same then its not a automorphic number.
 step 5 : Recursion runs till either it runs out of digits which returns true or gets two different digits which returns false.
+
+Algorithm for main function:
+step 1 : Take a number as input.
+step 2 : Pass the number and square of it to isAutomorphic and check if it returns true or false.
+step 3 : true means its an automorphic number and false means its not. Then the messages are displayed accordingly.
