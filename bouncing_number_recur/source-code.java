@@ -17,33 +17,29 @@ public class bouncing // class name declaration
 	boolean isDecreasing(int a) // this module is to check whether the number is in a decreasing order
 	{
 		String st = a+""; // converting the integer to string
-		boolean flag = true; // declaring a boolean variable flag with the default value true
 
 		for(int i=0;i<st.length()-1;i++) // this loop is to extract the character from the string and to compare the ASCII
 		{
 			if(st.charAt(i)<st.charAt(i+1))
 			{
-				flag = false;
-				break;
+				return false;
 			}
 		}
-		return flag; // returning value of flag to the calling program
+		return true; // returning value of flag to the calling program
 	}
 
 	boolean isIncreasing(int a) // this module is to check whether the number is in an increasing order
 	{
 		String st = a+""; // converting the integer to string
-		boolean flag = true; // declaring a boolean variable flag with the default value true
 
 		for(int i=0;i<st.length()-1;i++) // this lop is to extract the character from the string and to compare the ASCII
 		{
 			if(st.charAt(i)>st.charAt(i+1))
 			{
-				flag = false;
-				break;
+				return false;
 			}
 		}
-		return flag; // returning the value of flag to the calling program
+		return true; // returning the value of flag to the calling program
 	}
 
 	void display() // this method is to print whether the number is a bouncing number or not
