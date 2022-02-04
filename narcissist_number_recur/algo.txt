@@ -1,0 +1,10 @@
+Algorithm for narcissist number using recurtion
+
+Algorithm for int digi_sum_power(int n, int a):
+step 1 : Check if n = 0 if yes then return 0.
+step 2 : If no then return the last digit of the number raised to the power of a + sum of digits of n which are raised to the power of a.
+
+Algorithm for main function:
+step 1 : Take a number as input from the user.
+step 2 : Check if the sum of digits of the number which are raised to the power of its number of digits = itself or not.
+step 3 : If yes then narcissist number else not.
