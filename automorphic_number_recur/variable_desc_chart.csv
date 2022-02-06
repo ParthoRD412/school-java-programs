@@ -1,0 +1,3 @@
+SL.no,variable name,data type,description
+1,n,int,This is to take a number input
+2,s,int,This is used to store the square of the number
