@@ -1,0 +1,10 @@
+Sl.no,variable name,data type,description
+1,n,int,This is to take the number of rows input
+2,arr,int,This is a 2D array
+3,st,String,This is a string accumulator to store the matrix elements
+4,i,int,This is the loop control variable
+5,i,int,This is the loop control variable
+6,left,int,This is a 1D array to store the left diagonal elements
+7,right,int,This is a 1D array to store the right diagonal elements
+8,l,String,This is to store the left diagonal elements in a string accumulator
+9,r,String,This is to store the right diagonal elements in a string accumulator
