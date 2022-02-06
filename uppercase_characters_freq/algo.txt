@@ -1,0 +1,14 @@
+Algorithm for uppercase characters frequency
+
+Algorithm for int uppercase_freq(String st):
+step 1 : Make a counter variable c to track the frequency.
+step 2 : Go through all the characters of the string.
+step 3 : When a uppercase character is found increment c by 1.
+step 4 : Afer the loop return c.
+
+Algorithm for main function:
+step 1 : Take a string as an input.
+step 2 : Make a word array to store the words in the string.
+step 3 : Fill the word array by spliting the string by " ".
+step 4 : Go through all the words in the array.
+step 5 : Print the word and its uppercase character frequency for all words.
