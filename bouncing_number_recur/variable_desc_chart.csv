@@ -1,0 +1,4 @@
+Sl.no,variable name,data type,description
+1,n,int,This is the instance variable to take a number input
+2,a,int,This is used in the formal parameter for the methods 
+3,flag,boolean,This is to return true or false to the calling program

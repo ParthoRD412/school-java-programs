@@ -1,0 +1,5 @@
+Sl.no,variable name,data type,description
+1,ch,char,This is to store the character extracted from the string
+2,st,String,This is a 1D array to take a string input from the user trim the spaces from the start and the end and converting it into an array after converting it into lowercase
+3,c,int,This is to count the number of words which satisfy the condition
+4,i,int,This is a loop control variable

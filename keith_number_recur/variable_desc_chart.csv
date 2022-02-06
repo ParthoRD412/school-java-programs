@@ -1,0 +1,15 @@
+Sl.no,variable name,data type,description
+1,n,int,This is to take a number input
+2,index,int,This is to take the index as input
+3,array,int,This is to store an array
+4,c,int,This is to store the value of the counter variable
+5,counter,int,This is the formal parameter to count the number of iterations
+6,number,int,This is to store the sum of digits
+7,num,int,This is to update the digit whose sum of digits has been found
+8,sum_of_digits,int,This is used to store the sum of digits by calling the recursive method sum()
+9,count,int,This is to store the number of digits by calling the countDigits() recursive method
+10,temp,int,This is to store the value of n temporarily
+11,digits,int,This is a 1D array to store the digits
+of the number
+12,i,int,This is the loop control variable
+13,isKeith,boolean,This is to check whether a number is keith nuber or not by calling the recursive method check_Keith()

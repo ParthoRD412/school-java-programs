@@ -1,0 +1,3 @@
+Sl.no,variable name,data type,description
+1,n,int,This is to take a number input
+2,st,String,THis is to store the binary value of the number n in string format

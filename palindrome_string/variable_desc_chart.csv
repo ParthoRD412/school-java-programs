@@ -1,0 +1,4 @@
+SL.no,variable name,data type,description
+1,st,String,This is a 1D array which takes a string input and trims it and then converts it to array of string
+2,i,int,This is the loop control variable
+3,s,String,This is an accumulator to reverse the string
