@@ -1,0 +1,19 @@
+Algorithm for vowel consonant
+
+Algorithm for boolean startsWithVowel(String st):
+step 1 : Check if the first character of st is a vowel or not.
+step 2 : Return the answere in true or false.
+
+Algorithm for boolean endsWithConsonant(String st):
+step 1 : Check if the last character of st is a consonant or not.
+step 2 : Return the answere in true or false.
+
+Algorithm for main function:
+step 1 : Take a string as an input.
+step 2 : Make a string SDA to store the words and fill it by spliting the string by " ".
+step 3 : Make a counter variable to store the number of words that satisfied the condition.
+step 4 : Go through all the words.
+step 5 : Check if a word starts with a vowel and ends with a consonant or not.
+step 6 : If yes then the word is printed and the counter variable is incremented.
+step 7 : After the loop check if there were no word that satisfied the condition that is if counter is 0.
+step 8 : Then print No words in the sentence begin with vowel and end with consonant
