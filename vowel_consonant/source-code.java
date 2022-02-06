@@ -10,7 +10,7 @@ public class vowel_consonant // class name declaration
     boolean endsWithConsonant(String st) // this is a method which checks whether a word ends with a consonant of not!
     {
         char ch = st.charAt(st.length()-1);
-        return (ch!='a'||ch!='e'||ch!='i'||ch!='o'||ch!='u')? true : false;
+        return !(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')? true : false;
     }
 
     public static void main(String args[]) // running the main() method
