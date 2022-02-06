@@ -1,0 +1,5 @@
+Sl.no,variable name,data type,description
+1,n,int,This is to take a number input from the user
+2,c,int,This is the counter to store the number of digits available form 1 - 9
+3,a,int,This is to concat the number by multiplying it twice and thrice
+4,i,int,This is the loop control variable
