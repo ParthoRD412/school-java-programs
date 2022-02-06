@@ -1,2 +1,4 @@
 Sl.no,variable name,data type,description
-1,st,String,This is a 1D array 
+1,st,String,This is a 1D array to take a string input and trimming the spaces form the start and the end and converting it to a string array using split function
+2,i,int,This is a loop control variable
+3,c,int,This is a counter to store the number of upppercase letters
