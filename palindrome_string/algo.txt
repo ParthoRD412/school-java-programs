@@ -1,0 +1,15 @@
+Algorithm for palindrome string
+
+Algorithm for boolean pali_word_check(String st):
+step 1 : Reverse the inputed string.
+step 2 : Check if the resersed string and the original are same are not if yes then return true and else false.
+
+Algorithm for String pali_to_nonpali(String st):
+step 1 : Convert the palindrome word to non palindrome word by adding a character which as per the ASCII is the next charater to the last character of the word.
+
+Algorithm for main function:
+step 1 : Take a string as input.
+step 2 : Make a string SDA of words by spliting the input string by " ".
+step 3 : Go through all the words.
+step 4 : Check if a word is palindrome or not.
+step 5 : If yes then convert the palindrome word to a non palindrome word and print it.
