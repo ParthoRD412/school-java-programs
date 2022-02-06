@@ -1,0 +1,12 @@
+Algorithm for matrix row sorting
+
+Algorithm for String array_sorting(int arr[]):
+step 1 : Sort the SDA arr using bubble sort technique
+step 2 : Make a string to store the elements of the sorted array in a proper format and return it.
+
+Algorithm for main function:
+step 1 : Take the number of rows and columns from the user.
+step 2 : Since we are sorting rows so make a SDA of size columns.
+step 3 : Loop through rows and fetch their individual elements by running a second loop then taking inputs from the user and storing it in the SDA.
+step 4 : When a row is inputed then its gets sorted and the resultant string is concatenated with the previous results.
+step 5 : After completetion of loops the resultant string is printed.
