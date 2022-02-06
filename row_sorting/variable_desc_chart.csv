@@ -1,0 +1,10 @@
+Sl.no,variable name,data type,description
+1,row,int,This is to take the nuber of rows as input from the user
+2,column,int,This is to take the number of columns as input from the user
+3,st,String,This is a string accumulator to store the elements of the matrix
+4,s,String,This is another string accumulator to store the elements of the array after row sorting
+5,arr,int,This is a 1D array to store the rows of the matrix one row at a time
+6,i,int ,This is the loop control variable
+7,j,int ,This is the loop control variable
+8,n,int ,This is to store the length of the array
+9,copy,int ,This is to temporarily store the value of the array elements

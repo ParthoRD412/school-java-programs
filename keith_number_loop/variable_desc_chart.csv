@@ -1,0 +1,8 @@
+Sl.no,variable name,data type,description
+1,n,int,This is to take a number a input
+2,n1,int,htis is to make a temporary copy of the variable n
+3,s,String,This is to convert the number to String
+4,arr,int,This is a 1D array to store the digits of the number
+5,i,int,This is the loop control variable
+6,sum,int,This is to store the sum of the digits
+7,d,int,This is to store the number of digits

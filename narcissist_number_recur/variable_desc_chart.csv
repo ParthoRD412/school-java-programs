@@ -1,0 +1,3 @@
+Sl.no,variable name,data type,description
+1,n,int,This is to take a number input
+2,a,int,This is to assign the power to the digits
