@@ -22,7 +22,7 @@ public class pali_word // class name declaration
 		pali_word ob = new pali_word(); // class object creation
 		
 		System.out.println("Enter a string : ");
-		String st[] = ((in.nextLine().trim()).toLowerCase()).split(" +"); // taking a string input and removing all the spaces from the beginning and the end and then converting it into a string array
+		String st[] = ((in.nextLine().trim()).toLowerCase()).split(" "); // taking a string input and removing all the spaces from the beginning and the end and then converting it into a string array
 		System.out.println("\nThe palindrome words are converted to non palindrome words : ");
 		
 		for(int i = 0;i<st.length;i++) // this module is to extract the words from the string array
