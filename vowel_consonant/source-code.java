@@ -10,7 +10,7 @@ public class vowel_consonant // class name declaration
     boolean endsWithConsonant(String st) // this is a method which checks whether a word ends with a consonant of not!
     {
         char ch = st.charAt(st.length()-1);
-        return (ch!='a'||ch!='e'||ch!='i'||ch!='o'||ch!='u')? true : false;
+        return !(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')? true : false;
     }
 
     public static void main(String args[]) // running the main() method
@@ -18,7 +18,7 @@ public class vowel_consonant // class name declaration
         Scanner in = new Scanner(System.in); // Scanner class object creation
         vowel_consonant ob = new vowel_consonant();        
         System.out.println("Enter a string : ");
-        String st[] = ((in.nextLine().trim()).toLowerCase()).split(" +"); // taking a string input and removing all the spaces from front and behind and then converting it into lowercase and making an array of words with it!
+        String st[] = ((in.nextLine().trim()).toLowerCase()).split(" "); // taking a string input and removing all the spaces from front and behind and then converting it into lowercase and making an array of words with it!
         System.out.println("All the words which start with a vowel and end with a consonant : ");
         int c = 0; // counter to store the number of words satisfying the condition
         for(int i=0;i<st.length;i++) // this loop is to extract all the words from the array and invoking methods to check whether it starts with vowel and ends with consonant or not

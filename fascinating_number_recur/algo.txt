@@ -1,0 +1,15 @@
+Algorithm for fascinating number using recurtion
+
+Algorithm for int freq(int n, int a):
+step 1 : If n = 0 then there is nothing to check so return 0.
+step 2 : Extract last digit from n and check if its the number whose frequency is to be calculated.
+step 3 : If yes then 1 + the frequency for rest of n is returned.
+step 4 : If no then return the frequency for rest of n.
+
+Algorithm for main function:
+step 1 : Take a number as input from the user.
+step 2 : Take an arbitrary value to store the result of "<n>" + "<n*2>" + "<n*3>".
+step 3 : Take another value to keep track of the number of numbers from 1 to 9 which are present in the previously taken value just once.
+step 4 : Check if the arbitrary value contains a frequency of 1 for all numbers from 1 to 9.
+step 5 : Everytime the condition is satisfied the counter or tracker variable is incremented.
+step 6 : After checking all numbers from 1 to 9 if c = 9 then its a fascinating number else its not.

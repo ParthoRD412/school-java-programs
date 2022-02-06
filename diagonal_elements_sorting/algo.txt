@@ -1,0 +1,10 @@
+Algorithm for diagonal elements sorting
+
+Algorithm for main function:
+step 1 : Create a new DDA of size n which is to be taken as input from the user.
+step 2 : Fill the DDA with inputs from the user.
+step 3 : Print the original matrix.
+step 4 : Create 2 new SDAs one for left to right diagonal and the other for right to left each of size n.
+step 5 : Extract the diagonal elements from the matrix and store it in their respective arrays.
+step 6 : Then sort both of the arrays in ascending order
+step 7 : Print both of the sorted arrays.

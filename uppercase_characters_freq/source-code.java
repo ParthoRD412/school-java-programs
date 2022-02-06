@@ -17,7 +17,7 @@ public class upper // class name declaration
     {
         Scanner in = new Scanner(System.in); // Scanner class object creation
         System.out.println("Enter a string : ");
-        String st[] = (in.nextLine().trim()).split(" +"); // taking input and converting it into an array of words
+        String st[] = (in.nextLine().trim()).split(" "); // taking input and converting it into an array of words
         System.out.println("Word\tuppercase frequency");
 
         for(int i=0;i<st.length;i++) // this loop is to extract all the words from the character array

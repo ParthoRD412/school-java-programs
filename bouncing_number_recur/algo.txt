@@ -1,0 +1,27 @@
+Algorithm for bouncing number using recurtion
+
+Algorithm for constructor bouncing():
+step 1 : Initalize n to 0.
+
+Algorithm for void input():
+step 1 : Take a number as an input using Scanner class then store it in n.
+
+Algorithm for boolean isDecreasing(int a):
+step 1 : Convert a to String and store it in st.
+step 2 : Run a loop from first to the second last position of the string.
+step 3 : Check if the succeeding digit is greater than the current digit or not. If yes then its not in decreasing order so return false.
+step 4 : If the function dose not return till the end of loop then its in decreasing order so return true.
+
+Algorithm for boolean isIncreasing(int a):
+step 1 : Convert a to String and store it in st.
+step 2 : Run a loop from first to the second last position of the string.
+step 3 : Check if the succeeding digit is smaller than the current digit or not. If yes then its not in increasing order so return false.
+step 4 : If the function dose not return till the end of loop then its in increasing order so return true.
+
+Algorithm for void display():
+step 1 : Take input using input method.
+step 2 : If the number is in increasing order or is in decreasing order or is less than 101 then print its not a bouncing number else print bouncing number.
+
+Algorithm for main method:
+step 1 : Create a new instance of class bouncing.
+step 2 : Call the function display from the instance to handle rest of the processing.

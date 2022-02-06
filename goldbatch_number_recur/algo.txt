@@ -1,0 +1,16 @@
+Algorithm for goldbarth number using recurtion
+
+Algorithm for boolean isGoldBatch(int n):
+step 1 : Take a number i whose value varies from 1 to n.
+step 2 : Now because n = i + (n-i) so we need to check if both i and n-i are prime or not if yes then its a goldbatch number and true is returned.
+step 3 : If no such pair is found to be prime then false is returned.
+
+Algorithm for int div(int n, int i):
+step 1 : Check if i > n then return 0.
+step 2 : If not then check if n is divisible be i or not if yes then 1 + number for rest of factors is returned.
+step 3 : If the previous case also fails then the number for rest of factors is returned.
+
+Algorithm for main function:
+step 1 : Take a number as input from the user.
+step 2 : Check if the number is a goldbatch number or not by passing the number to isGoldBatch function.
+step 3 : Print appropriate message according to the result.
