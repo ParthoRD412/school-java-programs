@@ -1,0 +1,13 @@
+Algorithm for spiral arrangement of matrix elements after being sorted
+
+Algorithm for sorted_matrix() method
+step 1 : take the matrix input and sort it in ascending order using bubble sorting technique
+
+Algorithm for spiral() method
+step 1 : take the matrix input and arrange it in a spiral form using loop and store it in a string and return the string
+
+Algorithm for main() method
+step 1 : take the number of rows and the columns of the square matrix input
+step 2 : array declaration and initialization
+step 3 : now taking the matrix elements as input
+step 4 : print the original matrix and the the sorted and arranged matrix by invoking the spiral() method
