@@ -1,0 +1,23 @@
+Algorithm from emrip number
+
+step 1 : int n;
+
+Algorithm for constructor Emrip()
+ste 1 : initialize the value of n with nn which is the formal parameter
+
+Algorithm for isPrime() method
+step 1 : check whether the number is less than or equal to one if so return 0
+step 2 : if the number is greater than 1 then run a for loop starting from 2 till the number - 1
+setp 3 : if the number is divisible by any number other than 1 and the number itself then it is not a prime number then return 0
+step 4 : if the condition of the if isn't satisfied then return 1 as it is a prime number
+
+Algorithm for isEmrip() method
+step 1 : check whether the number is prime or not by invokin gthe isPrime() method inside the if condition and display the messege accordingly
+step 2 : In case it is a prime number then use while loop to reverse the number
+step 3 : check whether the reverse of the number is also equal to the number if so then it is an Emrip number else not! and messege to be displayed accordingly
+
+Algorithm for main() method
+step 1 : Scanner class object creation
+step 2 : take a number input
+step 3 : pass the value of the number taken as input to the constructor while class object creation
+step 4 : invoke the is isEmrip() method to get the output
