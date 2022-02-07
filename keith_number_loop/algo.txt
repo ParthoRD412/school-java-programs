@@ -1,0 +1,13 @@
+Algorithm for Keith number
+
+Algorithm for main() method
+step 1 : creating a scanner class object
+step 2 : taking a number input
+step 3 : maing a copy of the number
+step 4 : convert the number to a string and store it inside some other variable
+step 5 : to count the number of digits simply find the length of the string
+step 6 : creation and declaration of an array arr[]
+step 7 : run a for loop from the number-1 to 0 and extract the digits of the number and store them as array elements
+step 8 : use a while loop which will run till the sum of digits is less than n
+step 9 : shifting the array elements one digit forward and then last element will be the sum of the other digits
+step 10 : check whether the number is equal to the sum and display the messege accourdingly

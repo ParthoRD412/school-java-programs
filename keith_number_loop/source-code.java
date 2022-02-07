@@ -1,5 +1,5 @@
 //To check if a number is a keith number or not
-import java.util.Scanner; //Scanner class to be used in the program
+import java.util.*; //Scanner class to be used in the program
 public class KeithNumber{//Class declaration
 public static void main(String[] args) { //Main method(Driver code)
      Scanner sc = new Scanner( System.in );//Created a scanner 
