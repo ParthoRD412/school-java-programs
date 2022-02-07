@@ -1,0 +1,17 @@
+Algorithm for keith number using recursion
+
+Algorithm for countDigits() method
+step 1 : using recursion count the number of countDigits
+
+Algorithm for sum() method
+step 1 : using recursion find the sum of the array elemnts
+
+Algorithm for check_Keith() method
+step 1 : using recursion countinuously swap the elements of the array by shifting the elements 1 box forward and the last element to be the sum of th digits of the number formed till the sum of digits cumulatively becomes either greater than or equal to the number if the number is equal then return true else return false
+
+Algorithm for main() method
+step 1 : scanner class object creaion
+step 2 : take a number input
+step 3 : count the number of digits using the recursive method countDigits() as it will be the array length
+step 4 : use a loop to extract the digits and store them in the array
+step 5 : call a recursive method and check whether a number is keith number or not using recursion

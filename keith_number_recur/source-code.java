@@ -1,11 +1,9 @@
 //To check if a number is a keith number or not using recursion.
-import java.util.Scanner;
-
-public class keit_recur{
-
+import java.util.*;
+public class keit_recur
+{
     public static int countDigits(int n){
         if(n < 10) return 1;
-
         return (countDigits(n/10)+1);
     }
 
@@ -36,35 +34,20 @@ public class keit_recur{
         return check_Keith(number, array, c);
     }
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number : ");
         int n = sc.nextInt();
-
         int count = 0;
-
         int temp = n;
-
         count = countDigits(n);
-
         System.out.println("There are "+count+" digits in the number.");
-
         temp = n;
         int digits[] = new int[count];
-
         //Tranfer the digits to the array
- 
         for(int i = count-1; i>=0; i--){
             digits[i] = temp % 10;
             temp = temp / 10;
         }
-
-        
-        
-        // for(int i = 0; i < count; i++){
-        //     System.out.print(digits[i] + " ");
-        // }
-
         //now checking whether the number is a keith number or not
         boolean isKeith = check_Keith(n, digits, 0);
 
@@ -74,9 +57,6 @@ public class keit_recur{
         else{
             System.out.println("Not a keith number.");
         }
-
-        sc.close();
-
     }
 }
  
