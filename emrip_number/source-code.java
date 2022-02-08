@@ -20,8 +20,8 @@ public class Emirp{//Class declaration
             rev = rev * 10 + d;//Reverse number updated
             n /= 10;//Number updated i.e. 1 digit reduced
         }
-        if(rev ==  copy)
-        System.out.print("Yes Emirp number");//If number is prime and rev = number then its an emirp number
+        if(isPrime(rev)==1)
+        System.out.println("Yes Emirp number");//If number is prime and rev = number then its an emirp number
         else
         System.out.println("Not Emrip number");
     }
